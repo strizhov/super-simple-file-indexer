@@ -1,0 +1,30 @@
+Super Simple File Indexer	
+  
+A multi-threaded text file indexing command line application that prints 10 most repeated words and their counts. 
+
+BUILD
+
+Run "make" in source folder, the executable 'ssfi' will be placed in 'bin' folder
+
+USAGE
+
+$ cd bin
+$ ./ssfi --help
+
+"Help" command outputs all supported options. 
+
+By default the application will try to crawl "*.txt" files in "bin" folder (where the executable file is). 
+To specify custom directory path, use "-p" option, for instance:
+
+$ ./ssfi -p /usr/share/doc
+
+By default the application will use 10 concurrent threads to crawl text files.
+To specify custom number of threads, use "-t" option, for instance:
+
+$ ./ssfi -t 20 -p /usr/share/doc
+
+AUTHORS
+
+Mikhail Strizhov (strizhov@cs.colostate.edu)
+
+
