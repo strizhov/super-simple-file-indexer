@@ -17,7 +17,9 @@
 
 // Module
 #include <boost/shared_ptr.hpp>
-#include "ThreadManager.hpp"
+//#include "ThreadManager.hpp"
+
+class ThreadManager;
 
 class FileFinder
 {

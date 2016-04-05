@@ -16,6 +16,7 @@
 #include <boost/algorithm/string.hpp>   
 #include <boost/make_shared.hpp>
 #include "WordCount.hpp"
+#include "ThreadManager.hpp"
 
 WordCount::WordCount(boost::shared_ptr<ThreadManager> p_oThreadManager)
 : m_oThreadManager(p_oThreadManager)

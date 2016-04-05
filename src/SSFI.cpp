@@ -20,9 +20,6 @@
 
 int main(int argc, char* argv[])
 {
-  SSFIManager ctr;
-  std::multimap<int, std::string, wc_comparator> results;
-
   std::string directory;
   std::string extension;
   int words_num = 0;
@@ -46,6 +43,10 @@ int main(int argc, char* argv[])
   }
   po::notify(vm);
   
+  // Make manager and results
+  SSFIManager ctr;
+  std::multimap<int, std::string, wc_comparator> results;
+
   // Set path
   ctr.SetRootPath(directory);
 
