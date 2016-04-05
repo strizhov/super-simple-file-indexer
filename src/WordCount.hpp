@@ -42,8 +42,8 @@ class WordCount
     void WaitForCompletion();
     void Crawl(const boost::filesystem::path& p_oPath, bool p_bThreadEnabled);
 
-    boost::mutex m_oWordCounterMutex;
     std::map<std::string, int> m_oFrequency;
+    boost::mutex m_oWordCounterMutex;
     boost::thread_group	m_oWordCounterThreads;
     boost::shared_ptr<ThreadManager> m_oThreadManager;
 };

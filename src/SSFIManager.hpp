@@ -8,7 +8,6 @@
 */
 
 // System
-#include <string>
 
 // Shared
 #include "site_defaults.hpp"

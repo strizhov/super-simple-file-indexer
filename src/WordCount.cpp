@@ -14,7 +14,6 @@
 
 // Module
 #include <boost/algorithm/string.hpp>   
-#include <boost/make_shared.hpp>
 #include "WordCount.hpp"
 #include "ThreadManager.hpp"
 

@@ -9,7 +9,6 @@
 
 // System
 #include <iostream>
-#include <iomanip>
 
 // Shared
 

@@ -14,7 +14,6 @@
 
 // Module
 #include <boost/thread.hpp>
-#include <boost/date_time.hpp>
 #include "ThreadManager.hpp"
 
 ThreadManager::ThreadManager()

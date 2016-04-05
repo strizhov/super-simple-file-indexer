@@ -12,6 +12,7 @@
 
 #include <map>
 #include <list>
+#include <string>
 #include <boost/filesystem.hpp>
 
 #ifndef MAX_THREADS
