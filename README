@@ -23,6 +23,11 @@ To specify custom number of threads, use "-t" option, for instance:
 
 $ ./ssfi -t 20 -p /usr/share/doc
 
+Also, you can try a set of examples (text books from Project Gutenberg) located in "example" folder. 
+For instance:
+
+$ ./ssfi -p ./ssfi -p ../example
+
 AUTHORS
 
 Mikhail Strizhov (strizhov@cs.colostate.edu)
